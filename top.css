@@ -1,0 +1,57 @@
+body {
+  background-color: #ffeeff;
+}
+
+.content {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.header {
+  text-align: center;
+}
+
+.header p {
+  color: #ff6666;
+}
+
+.header h3 {
+  color: #ff6666;
+}
+
+.header h1 {
+  color: #ff6666;
+  font-size: 60px;
+}
+
+.introduce {
+  text-align: center;
+}
+
+.nameForm {
+  text-align: center;
+}
+
+.manMark {
+  color: blue;
+}
+
+.womanMark {
+  color: hotpink;
+}
+
+.buttonArea {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.buttonArea button {
+  background-color: #ff5192;
+  color: white;
+  height: 50px;
+  width: 100px;
+}
+
+.percent {
+  color: red;
+}
