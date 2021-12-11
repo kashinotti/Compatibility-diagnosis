@@ -40,7 +40,7 @@ function resultAnnouncement() {
     `<p class="percent">お似合い度は${randomNumber}%</p>`
     );
     announce.insertAdjacentHTML('beforeend',
-    '<img src="img/41%~60%.jpg">'
+    '<img src="img/41%~60%2.jpg">'
     );
     announce.insertAdjacentHTML('beforeend',
     '<p>まずは飲みに行ってお互いを知りましょう！</p><p>LINE教えて！！</p>'
