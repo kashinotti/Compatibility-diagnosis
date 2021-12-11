@@ -10,14 +10,14 @@ console.log(womanName);
 function resultAnnouncement() {
   if(randomNumber == 0) {
     announce.insertAdjacentHTML('beforeend',
-    `<p class="percent">お似合い度は${randomNumber}%</p>`
+    `<p class="percent">お似合い度は<span class="randomNumber">${randomNumber}%</span></p>`
     );
     announce.insertAdjacentHTML('beforeend',
-    '<p>すまん！！解散！！！！！</p>'
+    '<p class="dissolution">すまん！！解散！！！！！</p>'
     );
   } else if(randomNumber <= 20) {
     announce.insertAdjacentHTML('beforeend',
-    `<p class="percent">お似合い度は${randomNumber}%</p>`
+    `<p class="percent">お似合い度は<span class="randomNumber">${randomNumber}%</span></p>`
     );
     announce.insertAdjacentHTML('beforeend',
     '<img src="img/1~20.jpg">'
@@ -27,7 +27,7 @@ function resultAnnouncement() {
     );
   } else if(randomNumber >= 21 && randomNumber <= 40) {
     announce.insertAdjacentHTML('beforeend',
-    `<p class="percent">お似合い度は${randomNumber}%</p>`
+    `<p class="percent">お似合い度は<span class="randomNumber">${randomNumber}%</span></p>`
     );
     announce.insertAdjacentHTML('beforeend',
     '<img src="img/21~40.jpg">'
@@ -37,7 +37,7 @@ function resultAnnouncement() {
     );
   } else if(randomNumber >= 41 && randomNumber <= 60) {
     announce.insertAdjacentHTML('beforeend',
-    `<p class="percent">お似合い度は${randomNumber}%</p>`
+    `<p class="percent">お似合い度は<span class="randomNumber">${randomNumber}%</span></p>`
     );
     announce.insertAdjacentHTML('beforeend',
     '<img src="img/41~60.jpg">'
@@ -47,7 +47,7 @@ function resultAnnouncement() {
     );
   } else if(randomNumber >= 61 && randomNumber <= 80) {
     announce.insertAdjacentHTML('beforeend',
-    `<p class="percent">お似合い度は${randomNumber}%</p>`
+    `<p class="percent">お似合い度は<span class="randomNumber">${randomNumber}%</span></p>`
     );
     announce.insertAdjacentHTML('beforeend',
     '<img src="img/61~80.jpg">'
@@ -57,7 +57,7 @@ function resultAnnouncement() {
     );
   } else if(randomNumber >= 81 && randomNumber <= 99) {
     announce.insertAdjacentHTML('beforeend',
-    `<p class="percent">お似合い度は${randomNumber}%</p>`
+    `<p class="percent">お似合い度は<span class="randomNumber">${randomNumber}%</span></p>`
     );
     announce.insertAdjacentHTML('beforeend',
     '<img src="img/81~100.jpg">'

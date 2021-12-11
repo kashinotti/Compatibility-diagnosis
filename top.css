@@ -53,5 +53,13 @@ body {
 }
 
 .percent {
+  font-size: 40px;
+}
+
+.randomNumber {
   color: red;
+}
+
+.dissolution {
+  font-size: 60px;
 }
