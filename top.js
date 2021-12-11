@@ -20,7 +20,7 @@ function resultAnnouncement() {
     `<p class="percent">お似合い度は${randomNumber}%</p>`
     );
     announce.insertAdjacentHTML('beforeend',
-    '<img src="img/1%~20%.jpg">'
+    '<img src="img/1~20.jpg">'
     );
     announce.insertAdjacentHTML('beforeend',
     '<p>今日は終電で帰りましょう</p>'
@@ -30,7 +30,7 @@ function resultAnnouncement() {
     `<p class="percent">お似合い度は${randomNumber}%</p>`
     );
     announce.insertAdjacentHTML('beforeend',
-    '<img src="img/21%~40%.jpg">'
+    '<img src="img/21~40.jpg">'
     );
     announce.insertAdjacentHTML('beforeend',
     '<p>まずは飲みに行ってお互いを知りましょう！</p><p>LINE教えて！！</p>'
@@ -40,7 +40,7 @@ function resultAnnouncement() {
     `<p class="percent">お似合い度は${randomNumber}%</p>`
     );
     announce.insertAdjacentHTML('beforeend',
-    '<img src="img/41%~60%.jpg">'
+    '<img src="img/41~60.jpg">'
     );
     announce.insertAdjacentHTML('beforeend',
     '<p>まずは飲みに行ってお互いを知りましょう！</p><p>LINE教えて！！</p>'
@@ -50,7 +50,7 @@ function resultAnnouncement() {
     `<p class="percent">お似合い度は${randomNumber}%</p>`
     );
     announce.insertAdjacentHTML('beforeend',
-    '<img src="img/61%~80%.jpg">'
+    '<img src="img/61~80.jpg">'
     );
     announce.insertAdjacentHTML('beforeend',
     '<p>実質100%ってことで良いと思います。</p><p>LINE教えて！！</p>'
@@ -60,7 +60,7 @@ function resultAnnouncement() {
     `<p class="percent">お似合い度は${randomNumber}%</p>`
     );
     announce.insertAdjacentHTML('beforeend',
-    '<img src="img/81%~100%.jpg">'
+    '<img src="img/81~100.jpg">'
     );
     announce.insertAdjacentHTML('beforeend',
     '<p>お付き合いを前提に結婚してください！！！</p>'
